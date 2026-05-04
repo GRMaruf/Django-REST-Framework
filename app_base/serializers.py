@@ -20,4 +20,4 @@ class ProductSerializers(serializers.ModelSerializer):
 class ImageSerializers(serializers.ModelSerializer):
     class Meta:
         model = ProductImage
-        fields = ['image']
+        fields = '__all__'
